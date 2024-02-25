@@ -1,0 +1,18 @@
+@media screen and (orientation:portrait) {
+    .image {
+        width: 100%;
+    
+    }
+
+}
+  
+@media screen and (orientation:landscape) {
+    .image {
+        height: 100%;
+      
+    }
+
+
+}
+  
+

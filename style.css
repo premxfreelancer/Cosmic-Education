@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+html {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    color: white;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 15vh;
+
+    display: flex;
+    background-color: rgb(55, 118, 169);
+
+}
+
+.main {
+    width: 100%;
+    height: 70vh;
+ 
+    display: flex;
+    background-color: rgb(25, 37, 39);
+}
+.bottom {
+    width: 100%;
+    height: 15vh;
+ 
+    background-color: rgb(55, 118, 169);
+}
+
+.leftmain {
+    width: 50%;
+    height: 100%;
+ 
+    display: flex;
+    flex-wrap: wrap;
+}
+.rightmain {
+    width: 50%;
+    height: 100%;
+ 
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.classes {
+    width: 50%;
+    height: 50%;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.header1 {
+    width: 10%;
+    height: 100%;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header2 {
+    width: 80%;
+    height: 100%;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vh; 
+}
+.header3 {
+    width: 10%;
+    height: 100%;
+ 
+}
+
+.logo {
+    width: 10vh;
+}
+
+.buttons {
+    background-color: rgb(55, 118, 169);
+    border: white 0.1vh solid;
+    width: 80%;
+    height: 30%;
+    color: white;
+    font-size: 2vh;
+    cursor: pointer;
+
+}
+
+.buttons:hover {
+    background-color: rgb(131, 179, 222);
+}
+
+
+.image {
+  
+}
+.bottom {
+    color: black;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 2vh;
+}
